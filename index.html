@@ -3,57 +3,112 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Prós e Contras da Área de TI</title>
+  <title>Prós e Contras de Trabalhar na Área de TI</title>
+
+  <!-- Fonte Google -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>Prós e Contras de Trabalhar na Área de TI</h1>
-    <p>Um panorama realista sobre o mercado de tecnologia</p>
+  <nav class="navbar">
+    <div class="container">
+      <a href="#" class="logo">TIInsights</a>
+      <ul class="nav-links">
+        <li><a href="#pros">Prós</a></li>
+        <li><a href="#cons">Contras</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-overlay">
+      <h1>Vale a Pena Trabalhar em TI?</h1>
+      <p>Descubra os principais pontos positivos e os desafios da carreira em tecnologia.</p>
+    </div>
+    <img src="https://images.unsplash.com/photo-1555949963-398b6fc499b2?auto=format&fit=crop&w=1600&q=60" alt="Equipe de TI trabalhando">
   </header>
 
-  <section class="hero">
-    <img src="https://images.unsplash.com/photo-1526378722484-bd91ca387e72?auto=format&fit=crop&w=1200&q=60" alt="Profissionais de TI trabalhando">
-  </section>
+  <main class="container">
+    <section id="sobre" class="section about">
+      <h2>Visão Geral</h2>
+      <p>
+        A área de Tecnologia da Informação (TI) entrega um mercado dinâmico e em constante evolução. Profissionais têm oportunidades para crescimento, inovação e flexibilidade, mas também enfrentam prazos apertados, volume de aprendizagem e riscos de esgotamento. Abaixo, exploramos os principais **prós e contras** para te ajudar a tomar uma decisão consciente.
+      </p>
+    </section>
 
-  <section class="content">
-    <h2>Visão Geral</h2>
-    <p>
-      A área de Tecnologia da Informação é uma das mais promissoras do mercado,
-      oferecendo diversas oportunidades, salários competitivos e liberdade para
-      trabalhar de qualquer lugar. Porém, como qualquer área, também traz desafios
-      que precisam ser considerados.
-    </p>
-  </section>
+    <section id="pros" class="section cards">
+      <h2>Prós</h2>
+      <div class="card-grid">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1555949963-aaf3e6d84a27?auto=format&fit=crop&w=800&q=60" alt="Demanda alta de profissionais">
+          <h3>Alta Demanda</h3>
+          <p>O mercado de TI está em expansão, com diversas empresas buscando talentos.</p>
+        </div>
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1526378722484-bd91ca387e72?auto=format&fit=crop&w=800&q=60" alt="Salário competitivo">
+          <h3>Salários Competitivos</h3>
+          <p>Profissionais bem qualificados podem obter remuneração acima da média em muitos mercados.</p>
+        </div>
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1531496199598-9f0c408c9a2e?auto=format&fit=crop&w=800&q=60" alt="Trabalho remoto">
+          <h3>Flexibilidade e Trabalho Remoto</h3>
+          <p>Muitas posições permitem trabalho remoto, oferecendo maior liberdade de localização.</p>
+        </div>
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=60" alt="Inovação constante">
+          <h3>Inovação Contínua</h3>
+          <p>Você participa de projetos de ponta, com tecnologias emergentes e desafios criativos.</p>
+        </div>
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1535378917046-4f77c6b50428?auto=format&fit=crop&w=800&q=60" alt="Atuação global">
+          <h3>Atuação Global</h3>
+          <p>
+            As habilidades de TI são valorizadas mundialmente, abrindo portas para oportunidades
+            internacionais.
+          </p>
+        </div>
+      </div>
+    </section>
 
-  <section class="pros-cons">
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?auto=format&fit=crop&w=800&q=60" alt="Ambiente de trabalho moderno">
-      <h3>Prós</h3>
-      <ul>
-        <li>💼 Alta demanda de profissionais</li>
-        <li>💰 Salários competitivos</li>
-        <li>🏠 Possibilidade de trabalho remoto</li>
-        <li>🚀 Constante inovação</li>
-        <li>🌍 Atuação global</li>
-      </ul>
+    <section id="cons" class="section cards">
+      <h2>Contras</h2>
+      <div class="card-grid">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=800&q=60" alt="Trabalho intensivo">
+          <h3>Carga de Trabalho Intensa</h3>
+          <p>Projetos exigentes podem levar a longas jornadas e sobrecarga.</p>
+        </div>
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=60" alt="Aprendizado constante">
+          <h3>Aprendizado Contínuo</h3>
+          <p>É necessário se manter atualizado o tempo todo: cursos, novas tecnologias, frameworks.</p>
+        </div>
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1526662094078-58c2a7f56f2f?auto=format&fit=crop&w=800&q=60" alt="Pressão para entregar">
+          <h3>Alta Pressão</h3>
+          <p>Prazos apertados e entregas frequentes geram estresse.</p>
+        </div>
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1526401485004-5c9f8b32f1f8?auto=format&fit=crop&w=800&q=60" alt="Burnout">
+          <h3>Risco de Burnout</h3>
+          <p>Trabalhar em TI pode acarretar desgaste emocional e mental se não houver equilíbrio.</p>
+        </div>
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1519241047957-be31d7379a5d?auto=format&fit=crop&w=800&q=60" alt="Sedentarismo">
+          <h3>Sedentarismo</h3>
+          <p>Muitas horas sentado podem afetar a saúde física sem cuidados apropriados.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Desenvolvido por Juan Peres © 2025</p>
+      <p><small>Fontes de imagem: Unsplash</small></p>
     </div>
-
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1527430253228-e93688616381?auto=format&fit=crop&w=800&q=60" alt="Pessoa estressada com computador">
-      <h3>Contras</h3>
-      <ul>
-        <li>⏳ Excesso de horas trabalhadas</li>
-        <li>📚 Necessidade de aprendizado contínuo</li>
-        <li>😓 Pressão por entregas rápidas</li>
-        <li>⚠️ Burnout é comum na área</li>
-        <li>🖥️ Sedentarismo elevado</li>
-      </ul>
-    </div>
-  </section>
-
-  <footer>
-    <p>Desenvolvido por Juan Peres © 2025</p>
   </footer>
 
   <script src="script.js"></script>
